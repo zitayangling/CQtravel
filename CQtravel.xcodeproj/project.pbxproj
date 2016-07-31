@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC0201661CD5061E00C6FF93 /* flag1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0201651CD5061E00C6FF93 /* flag1.png */; };
+		FC043DC61D4DFA4700A16CEA /* onemoretime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC043DC51D4DFA4700A16CEA /* onemoretime.mp3 */; };
 		FC0FBB8E1CCD1042003D3CFB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FBB8D1CCD1042003D3CFB /* libxml2.tbd */; };
 		FC0FBB901CCD1055003D3CFB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FBB8F1CCD1055003D3CFB /* libsqlite3.0.tbd */; };
 		FC455D341D4DDF0300365794 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D2A1D4DDF0300365794 /* FMDatabase.m */; };
@@ -29,12 +29,10 @@
 		FC455D591D4DDF9300365794 /* SightType.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D561D4DDF9300365794 /* SightType.m */; };
 		FC455D5E1D4DDFEB00365794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC455D5A1D4DDFEB00365794 /* LaunchScreen.storyboard */; };
 		FC455D5F1D4DDFEB00365794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC455D5C1D4DDFEB00365794 /* Main.storyboard */; };
-		FC564D201CD451F100E705BB /* onemoretime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC564D1F1CD451F100E705BB /* onemoretime.mp3 */; };
-		FCB005991CD0DBD200852069 /* tu.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB005981CD0DBD200852069 /* tu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC0201651CD5061E00C6FF93 /* flag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag1.png; sourceTree = "<group>"; };
+		FC043DC51D4DFA4700A16CEA /* onemoretime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = onemoretime.mp3; path = CQtravel/onemoretime.mp3; sourceTree = SOURCE_ROOT; };
 		FC0FBB8D1CCD1042003D3CFB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		FC0FBB8F1CCD1055003D3CFB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		FC455D291D4DDF0300365794 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = CQtravel/fmdb/FMDatabase.h; sourceTree = SOURCE_ROOT; };
@@ -71,8 +69,6 @@
 		FC455D561D4DDF9300365794 /* SightType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SightType.m; path = CQtravel/Model/SightType.m; sourceTree = SOURCE_ROOT; };
 		FC455D5B1D4DDFEB00365794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CQtravel/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		FC455D5D1D4DDFEB00365794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CQtravel/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		FC564D1F1CD451F100E705BB /* onemoretime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = onemoretime.mp3; sourceTree = "<group>"; };
-		FCB005981CD0DBD200852069 /* tu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu.png; sourceTree = "<group>"; };
 		FCBE0E721CC113E500F403BA /* CQtravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQtravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,9 +136,6 @@
 			children = (
 				FC0FBB8F1CCD1055003D3CFB /* libsqlite3.0.tbd */,
 				FC0FBB8D1CCD1042003D3CFB /* libxml2.tbd */,
-				FC564D1F1CD451F100E705BB /* onemoretime.mp3 */,
-				FCB005981CD0DBD200852069 /* tu.png */,
-				FC0201651CD5061E00C6FF93 /* flag1.png */,
 				FCBE0E741CC113E500F403BA /* CQtravel */,
 				FCBE0E731CC113E500F403BA /* Products */,
 			);
@@ -171,6 +164,7 @@
 		FCBE0E751CC113E500F403BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC043DC51D4DFA4700A16CEA /* onemoretime.mp3 */,
 				FC455D5A1D4DDFEB00365794 /* LaunchScreen.storyboard */,
 				FC455D5C1D4DDFEB00365794 /* Main.storyboard */,
 				FC455D451D4DDF4200365794 /* AppDelegate.h */,
@@ -243,11 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC455D5F1D4DDFEB00365794 /* Main.storyboard in Resources */,
+				FC043DC61D4DFA4700A16CEA /* onemoretime.mp3 in Resources */,
 				FC455D4E1D4DDF4200365794 /* Info.plist in Resources */,
-				FCB005991CD0DBD200852069 /* tu.png in Resources */,
-				FC564D201CD451F100E705BB /* onemoretime.mp3 in Resources */,
 				FC455D5E1D4DDFEB00365794 /* LaunchScreen.storyboard in Resources */,
-				FC0201661CD5061E00C6FF93 /* flag1.png in Resources */,
 				FC455D4D1D4DDF4200365794 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
