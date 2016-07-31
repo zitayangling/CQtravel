@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0201661CD5061E00C6FF93 /* flag1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC0201651CD5061E00C6FF93 /* flag1.png */; };
+		FC0FBB8E1CCD1042003D3CFB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FBB8D1CCD1042003D3CFB /* libxml2.tbd */; };
+		FC0FBB901CCD1055003D3CFB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FBB8F1CCD1055003D3CFB /* libsqlite3.0.tbd */; };
+		FC455D341D4DDF0300365794 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D2A1D4DDF0300365794 /* FMDatabase.m */; };
+		FC455D351D4DDF0300365794 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D2C1D4DDF0300365794 /* FMDatabaseAdditions.m */; };
+		FC455D361D4DDF0300365794 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D2E1D4DDF0300365794 /* FMDatabasePool.m */; };
+		FC455D371D4DDF0300365794 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D301D4DDF0300365794 /* FMDatabaseQueue.m */; };
+		FC455D381D4DDF0300365794 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D331D4DDF0300365794 /* FMResultSet.m */; };
+		FC455D411D4DDF2100365794 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D3A1D4DDF2100365794 /* MapViewController.m */; };
+		FC455D421D4DDF2100365794 /* SightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D3C1D4DDF2100365794 /* SightTableViewController.m */; };
+		FC455D431D4DDF2100365794 /* SightTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D3E1D4DDF2100365794 /* SightTypeTableViewController.m */; };
+		FC455D441D4DDF2100365794 /* SightWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D401D4DDF2100365794 /* SightWebViewController.m */; };
+		FC455D4C1D4DDF4200365794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D461D4DDF4200365794 /* AppDelegate.m */; };
+		FC455D4D1D4DDF4200365794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC455D471D4DDF4200365794 /* Assets.xcassets */; };
+		FC455D4E1D4DDF4200365794 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC455D481D4DDF4200365794 /* Info.plist */; };
+		FC455D4F1D4DDF4200365794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D491D4DDF4200365794 /* main.m */; };
+		FC455D501D4DDF4200365794 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D4B1D4DDF4200365794 /* RXMLElement.m */; };
+		FC455D571D4DDF9300365794 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D521D4DDF9300365794 /* DataBaseManager.m */; };
+		FC455D581D4DDF9300365794 /* Sights.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D541D4DDF9300365794 /* Sights.m */; };
+		FC455D591D4DDF9300365794 /* SightType.m in Sources */ = {isa = PBXBuildFile; fileRef = FC455D561D4DDF9300365794 /* SightType.m */; };
+		FC455D5E1D4DDFEB00365794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC455D5A1D4DDFEB00365794 /* LaunchScreen.storyboard */; };
+		FC455D5F1D4DDFEB00365794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC455D5C1D4DDFEB00365794 /* Main.storyboard */; };
+		FC564D201CD451F100E705BB /* onemoretime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC564D1F1CD451F100E705BB /* onemoretime.mp3 */; };
+		FCB005991CD0DBD200852069 /* tu.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB005981CD0DBD200852069 /* tu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC0201651CD5061E00C6FF93 /* flag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag1.png; sourceTree = "<group>"; };
+		FC0FBB8D1CCD1042003D3CFB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		FC0FBB8F1CCD1055003D3CFB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FC455D291D4DDF0300365794 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = CQtravel/fmdb/FMDatabase.h; sourceTree = SOURCE_ROOT; };
+		FC455D2A1D4DDF0300365794 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = CQtravel/fmdb/FMDatabase.m; sourceTree = SOURCE_ROOT; };
+		FC455D2B1D4DDF0300365794 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = CQtravel/fmdb/FMDatabaseAdditions.h; sourceTree = SOURCE_ROOT; };
+		FC455D2C1D4DDF0300365794 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = CQtravel/fmdb/FMDatabaseAdditions.m; sourceTree = SOURCE_ROOT; };
+		FC455D2D1D4DDF0300365794 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = CQtravel/fmdb/FMDatabasePool.h; sourceTree = SOURCE_ROOT; };
+		FC455D2E1D4DDF0300365794 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = CQtravel/fmdb/FMDatabasePool.m; sourceTree = SOURCE_ROOT; };
+		FC455D2F1D4DDF0300365794 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = CQtravel/fmdb/FMDatabaseQueue.h; sourceTree = SOURCE_ROOT; };
+		FC455D301D4DDF0300365794 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = CQtravel/fmdb/FMDatabaseQueue.m; sourceTree = SOURCE_ROOT; };
+		FC455D311D4DDF0300365794 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = CQtravel/fmdb/FMDB.h; sourceTree = SOURCE_ROOT; };
+		FC455D321D4DDF0300365794 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = CQtravel/fmdb/FMResultSet.h; sourceTree = SOURCE_ROOT; };
+		FC455D331D4DDF0300365794 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = CQtravel/fmdb/FMResultSet.m; sourceTree = SOURCE_ROOT; };
+		FC455D391D4DDF2100365794 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = CQtravel/Controllers/MapViewController.h; sourceTree = SOURCE_ROOT; };
+		FC455D3A1D4DDF2100365794 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = CQtravel/Controllers/MapViewController.m; sourceTree = SOURCE_ROOT; };
+		FC455D3B1D4DDF2100365794 /* SightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SightTableViewController.h; path = CQtravel/Controllers/SightTableViewController.h; sourceTree = SOURCE_ROOT; };
+		FC455D3C1D4DDF2100365794 /* SightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SightTableViewController.m; path = CQtravel/Controllers/SightTableViewController.m; sourceTree = SOURCE_ROOT; };
+		FC455D3D1D4DDF2100365794 /* SightTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SightTypeTableViewController.h; path = CQtravel/Controllers/SightTypeTableViewController.h; sourceTree = SOURCE_ROOT; };
+		FC455D3E1D4DDF2100365794 /* SightTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SightTypeTableViewController.m; path = CQtravel/Controllers/SightTypeTableViewController.m; sourceTree = SOURCE_ROOT; };
+		FC455D3F1D4DDF2100365794 /* SightWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SightWebViewController.h; path = CQtravel/Controllers/SightWebViewController.h; sourceTree = SOURCE_ROOT; };
+		FC455D401D4DDF2100365794 /* SightWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SightWebViewController.m; path = CQtravel/Controllers/SightWebViewController.m; sourceTree = SOURCE_ROOT; };
+		FC455D451D4DDF4200365794 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CQtravel/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		FC455D461D4DDF4200365794 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CQtravel/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		FC455D471D4DDF4200365794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CQtravel/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FC455D481D4DDF4200365794 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CQtravel/Info.plist; sourceTree = SOURCE_ROOT; };
+		FC455D491D4DDF4200365794 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CQtravel/main.m; sourceTree = SOURCE_ROOT; };
+		FC455D4A1D4DDF4200365794 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RXMLElement.h; path = CQtravel/RXMLElement.h; sourceTree = SOURCE_ROOT; };
+		FC455D4B1D4DDF4200365794 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RXMLElement.m; path = CQtravel/RXMLElement.m; sourceTree = SOURCE_ROOT; };
+		FC455D511D4DDF9300365794 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataBaseManager.h; path = CQtravel/Model/DataBaseManager.h; sourceTree = SOURCE_ROOT; };
+		FC455D521D4DDF9300365794 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataBaseManager.m; path = CQtravel/Model/DataBaseManager.m; sourceTree = SOURCE_ROOT; };
+		FC455D531D4DDF9300365794 /* Sights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sights.h; path = CQtravel/Model/Sights.h; sourceTree = SOURCE_ROOT; };
+		FC455D541D4DDF9300365794 /* Sights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sights.m; path = CQtravel/Model/Sights.m; sourceTree = SOURCE_ROOT; };
+		FC455D551D4DDF9300365794 /* SightType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SightType.h; path = CQtravel/Model/SightType.h; sourceTree = SOURCE_ROOT; };
+		FC455D561D4DDF9300365794 /* SightType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SightType.m; path = CQtravel/Model/SightType.m; sourceTree = SOURCE_ROOT; };
+		FC455D5B1D4DDFEB00365794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CQtravel/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		FC455D5D1D4DDFEB00365794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CQtravel/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		FC564D1F1CD451F100E705BB /* onemoretime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = onemoretime.mp3; sourceTree = "<group>"; };
+		FCB005981CD0DBD200852069 /* tu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu.png; sourceTree = "<group>"; };
+		FCBE0E721CC113E500F403BA /* CQtravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQtravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBE0E6F1CC113E500F403BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0FBB901CCD1055003D3CFB /* libsqlite3.0.tbd in Frameworks */,
+				FC0FBB8E1CCD1042003D3CFB /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0FBB591CCCDFB4003D3CFB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FC455D511D4DDF9300365794 /* DataBaseManager.h */,
+				FC455D521D4DDF9300365794 /* DataBaseManager.m */,
+				FC455D531D4DDF9300365794 /* Sights.h */,
+				FC455D541D4DDF9300365794 /* Sights.m */,
+				FC455D551D4DDF9300365794 /* SightType.h */,
+				FC455D561D4DDF9300365794 /* SightType.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		FC0FBB5A1CCCDFC6003D3CFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC455D391D4DDF2100365794 /* MapViewController.h */,
+				FC455D3A1D4DDF2100365794 /* MapViewController.m */,
+				FC455D3B1D4DDF2100365794 /* SightTableViewController.h */,
+				FC455D3C1D4DDF2100365794 /* SightTableViewController.m */,
+				FC455D3D1D4DDF2100365794 /* SightTypeTableViewController.h */,
+				FC455D3E1D4DDF2100365794 /* SightTypeTableViewController.m */,
+				FC455D3F1D4DDF2100365794 /* SightWebViewController.h */,
+				FC455D401D4DDF2100365794 /* SightWebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FC0FBB761CCD0A3D003D3CFB /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				FC455D291D4DDF0300365794 /* FMDatabase.h */,
+				FC455D2A1D4DDF0300365794 /* FMDatabase.m */,
+				FC455D2B1D4DDF0300365794 /* FMDatabaseAdditions.h */,
+				FC455D2C1D4DDF0300365794 /* FMDatabaseAdditions.m */,
+				FC455D2D1D4DDF0300365794 /* FMDatabasePool.h */,
+				FC455D2E1D4DDF0300365794 /* FMDatabasePool.m */,
+				FC455D2F1D4DDF0300365794 /* FMDatabaseQueue.h */,
+				FC455D301D4DDF0300365794 /* FMDatabaseQueue.m */,
+				FC455D311D4DDF0300365794 /* FMDB.h */,
+				FC455D321D4DDF0300365794 /* FMResultSet.h */,
+				FC455D331D4DDF0300365794 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		FCBE0E691CC113E500F403BA = {
+			isa = PBXGroup;
+			children = (
+				FC0FBB8F1CCD1055003D3CFB /* libsqlite3.0.tbd */,
+				FC0FBB8D1CCD1042003D3CFB /* libxml2.tbd */,
+				FC564D1F1CD451F100E705BB /* onemoretime.mp3 */,
+				FCB005981CD0DBD200852069 /* tu.png */,
+				FC0201651CD5061E00C6FF93 /* flag1.png */,
+				FCBE0E741CC113E500F403BA /* CQtravel */,
+				FCBE0E731CC113E500F403BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBE0E731CC113E500F403BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBE0E721CC113E500F403BA /* CQtravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBE0E741CC113E500F403BA /* CQtravel */ = {
+			isa = PBXGroup;
+			children = (
+				FC0FBB761CCD0A3D003D3CFB /* fmdb */,
+				FC0FBB591CCCDFB4003D3CFB /* model */,
+				FC0FBB5A1CCCDFC6003D3CFB /* Controllers */,
+				FCBE0E751CC113E500F403BA /* Supporting Files */,
+			);
+			name = CQtravel;
+			path = "new、CQtravel";
+			sourceTree = "<group>";
+		};
+		FCBE0E751CC113E500F403BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC455D5A1D4DDFEB00365794 /* LaunchScreen.storyboard */,
+				FC455D5C1D4DDFEB00365794 /* Main.storyboard */,
+				FC455D451D4DDF4200365794 /* AppDelegate.h */,
+				FC455D461D4DDF4200365794 /* AppDelegate.m */,
+				FC455D471D4DDF4200365794 /* Assets.xcassets */,
+				FC455D481D4DDF4200365794 /* Info.plist */,
+				FC455D491D4DDF4200365794 /* main.m */,
+				FC455D4A1D4DDF4200365794 /* RXMLElement.h */,
+				FC455D4B1D4DDF4200365794 /* RXMLElement.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBE0E711CC113E500F403BA /* CQtravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBE0E891CC113E500F403BA /* Build configuration list for PBXNativeTarget "CQtravel" */;
+			buildPhases = (
+				FCBE0E6E1CC113E500F403BA /* Sources */,
+				FCBE0E6F1CC113E500F403BA /* Frameworks */,
+				FCBE0E701CC113E500F403BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CQtravel;
+			productName = "new、CQtravel";
+			productReference = FCBE0E721CC113E500F403BA /* CQtravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBE0E6A1CC113E500F403BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yangling;
+				TargetAttributes = {
+					FCBE0E711CC113E500F403BA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 99L3VE559A;
+					};
+				};
+			};
+			buildConfigurationList = FCBE0E6D1CC113E500F403BA /* Build configuration list for PBXProject "CQtravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBE0E691CC113E500F403BA;
+			productRefGroup = FCBE0E731CC113E500F403BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBE0E711CC113E500F403BA /* CQtravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBE0E701CC113E500F403BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC455D5F1D4DDFEB00365794 /* Main.storyboard in Resources */,
+				FC455D4E1D4DDF4200365794 /* Info.plist in Resources */,
+				FCB005991CD0DBD200852069 /* tu.png in Resources */,
+				FC564D201CD451F100E705BB /* onemoretime.mp3 in Resources */,
+				FC455D5E1D4DDFEB00365794 /* LaunchScreen.storyboard in Resources */,
+				FC0201661CD5061E00C6FF93 /* flag1.png in Resources */,
+				FC455D4D1D4DDF4200365794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBE0E6E1CC113E500F403BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC455D421D4DDF2100365794 /* SightTableViewController.m in Sources */,
+				FC455D351D4DDF0300365794 /* FMDatabaseAdditions.m in Sources */,
+				FC455D591D4DDF9300365794 /* SightType.m in Sources */,
+				FC455D4C1D4DDF4200365794 /* AppDelegate.m in Sources */,
+				FC455D441D4DDF2100365794 /* SightWebViewController.m in Sources */,
+				FC455D371D4DDF0300365794 /* FMDatabaseQueue.m in Sources */,
+				FC455D381D4DDF0300365794 /* FMResultSet.m in Sources */,
+				FC455D4F1D4DDF4200365794 /* main.m in Sources */,
+				FC455D501D4DDF4200365794 /* RXMLElement.m in Sources */,
+				FC455D581D4DDF9300365794 /* Sights.m in Sources */,
+				FC455D411D4DDF2100365794 /* MapViewController.m in Sources */,
+				FC455D571D4DDF9300365794 /* DataBaseManager.m in Sources */,
+				FC455D431D4DDF2100365794 /* SightTypeTableViewController.m in Sources */,
+				FC455D361D4DDF0300365794 /* FMDatabasePool.m in Sources */,
+				FC455D341D4DDF0300365794 /* FMDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC455D5A1D4DDFEB00365794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC455D5B1D4DDFEB00365794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FC455D5C1D4DDFEB00365794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC455D5D1D4DDFEB00365794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBE0E871CC113E500F403BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCBE0E881CC113E500F403BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBE0E8A1CC113E500F403BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
+				INFOPLIST_FILE = CQtravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangling.CQtravel;
+				PRODUCT_NAME = CQtravel;
+			};
+			name = Debug;
+		};
+		FCBE0E8B1CC113E500F403BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SDK_DIR)\"/usr/include/libxml2";
+				INFOPLIST_FILE = CQtravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangling.CQtravel;
+				PRODUCT_NAME = CQtravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBE0E6D1CC113E500F403BA /* Build configuration list for PBXProject "CQtravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBE0E871CC113E500F403BA /* Debug */,
+				FCBE0E881CC113E500F403BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBE0E891CC113E500F403BA /* Build configuration list for PBXNativeTarget "CQtravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBE0E8A1CC113E500F403BA /* Debug */,
+				FCBE0E8B1CC113E500F403BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBE0E6A1CC113E500F403BA /* Project object */;
+}
